@@ -1,0 +1,75 @@
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+.navigation li.logo {
+
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+#banner {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 720px;
+    width: auto;
+}
+.navigation ul {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none ;
+}
+
+.navigation li {
+
+    color: rgb(139, 135, 135);
+}
+
+#banner .content h1{
+    
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    margin-left: 600px;
+}
+
+#main  {
+    margin-left:35%;
+    padding:1px 16px;
+    width: 400px;
+    height:1000px;
+}
+#main  h3{
+    color: red;
+}
+
+#main  span{
+    border-top: 3px solid rgb(192, 181, 181);
+    border-bottom: 3px solid rgb(192, 181, 181);
+    
+}
+
+p {
+    color: rgb(139, 135, 135);
+}
+.share{
+margin-top: 200px;
+margin-left: 39%;
+margin-bottom: 50px;
+}
+.share a{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: red;
+}

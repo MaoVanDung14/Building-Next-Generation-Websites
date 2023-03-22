@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form_02</title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+<form action="#" target="_blank" method="post" autocomplete="on">
+    <table align="center">
+        <tr>
+            <td>
+                Email
+            </td>
+            <td colspan="2">
+                <input type="email" name="email" placeholder="eg. yourname@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Telephone
+            </td>
+            <td colspan="2" >
+                <input type="tel" placeholder="eg. 0123456789" pattern="[0-9]{10}" required>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                Password
+            </td>
+            <td colspan="2">
+                <input type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Vui lòng bao gồm ít nhất 1 ký tự viết hoa, 1 ký tự viết thường và 1 số. " required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Confirm Password
+            </td>
+            <td colspan="2">
+                <input type="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Vui lòng bao gồm ít nhất 1 ký tự viết hoa, 1 ký tự viết thường và 1 số. " required>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2" style="padding-left: 100px">
+                <input type="submit" value="Sign Up" >
+            </td>
+        </tr>
+
+    </table>
+</form>
+
+</body>
+</html>

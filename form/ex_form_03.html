@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form_3</title>
+    <style>
+        table{
+            border-collapse: separate;
+            border-spacing: 20px ;
+
+        }
+        tr , td{
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="#" target="_blank" method="post" autocomplete="on">
+    <table align="center">
+        <tr>
+            <td>
+                Textarea
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="text" rows="3" cols="100" id="text" placeholder="Required example textarea" style="border-radius: 5px" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id="check" name="check" value="check" required>
+                <label for="check"> Check this checkbox</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" name="radio" required>Toggle this radio
+                <input type="radio" name="radio" required>Or toggle this other radio
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select style="width: 759px; height: 30px; border-radius: 5px">
+                    <option value="menu">Open this select menu</option>
+                    <option value="menu1">menu 1</option>
+                    <option value="menu2">menu 2</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="my_file">Select files</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="file" id="my_file" name="my_file" style="border: 1px solid #262626; border-radius: 5px; width: 759px" multiple required >
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <input type="submit" value="Submit form" style="background: #6699cc; width: 100px; height: 30px; border-radius: 5px" >
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

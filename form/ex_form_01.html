@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+    <style>
+        table{
+            border-collapse: separate;
+            border-spacing: 20px ;
+
+        }
+        tr , td{
+            padding-left: 50px;
+        }
+    </style>
+
+</head>
+<body>
+<h1 style="text-align: center" >Đăng ký</h1>
+
+<form action="#" target="_blank" method="post" autocomplete="on">
+<table align="center">
+    <tr>
+        <td>Họ tên </td>
+        <td><input type="text" name="full_name" required></td>
+    </tr>
+    <tr>
+        <td>Giới tính </td>
+        <td>
+            <input type="radio" name="gender">Nam
+            <input type="radio" name="gender">Nữ
+        </td>
+    </tr>
+    <tr>
+        <td>Điện thoại</td>
+        <td colspan="2" ><input type="tel" placeholder="0123456789" pattern="[0-9]{10}" required></td>
+    </tr>
+    <tr>
+        <td>Địa chỉ</td>
+        <td><textarea name="address" rows="4" id="address" required></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Quận</td>
+        <td>
+            <select>
+                <option value="chonquan">---Chọn quận---</option>
+                <option value="badinh">Ba Đình</option>
+                <option value="hoankiem">Hoàn Kiếm</option>
+                <option value="dongda">Đống Đa</option>
+                <option value="caugiay">Cầu Giấy</option>
+            </select>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td>Sở thích</td>
+    </tr>
+    <tr>
+        <td>
+            <input type="checkbox" id="all" name="tatca" value="Tatca">
+            <label for="all"> Tất cả</label>
+        </td>
+
+
+        <td>
+            <input type="checkbox" id="bongda" name="bongda" value="Bongda">
+            <label for="bongda"> Bóng đá</label>
+            <input type="checkbox" id="xemphim" name="xemphim" value="Xemphim">
+            <label for="xemphim"> Xem phim</label>
+        </td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>
+            <input type="checkbox" id="dangoai" name="dangoai" value="Dangoai">
+            <label for="dangoai"> Dã ngoại</label>
+            <input type="checkbox" id="docsach" name="docsach" value="Docsach">
+            <label for="docsach"> Đọc sách</label>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td colspan="3" style="padding-left: 150px">
+            <input type="submit" value="Đăng ký">
+
+            <input type="reset" value="Làm lại">
+        </td>
+
+    </tr>
+
+</table>
+</form>
+</body>
+</html>

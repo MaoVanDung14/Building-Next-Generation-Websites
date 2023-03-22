@@ -1,0 +1,114 @@
+body{
+    background-color: #0066cc;
+}
+
+
+.header {
+    margin-top: -7px;
+    margin-left: 250px;
+}
+
+.header img {
+    width: 1000px;
+}
+
+.navigation {
+    color: white;
+    size: 12;
+    font: Verdana,Arial,Helvetica,sans-serif;
+    background-color: #003399;
+    margin-left: 250px;
+    margin-top: -3px;
+    width: 1000px;
+    height: 40px;
+}
+
+.navigation a {
+
+    color: white;
+    text-decoration: none;
+    padding: 0 40px 0 40px;
+    border-right: 1px solid #BB4545;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.navigation a:hover{
+    background-color: #0066cc;
+    text-decoration: underline;
+}
+.navigation a:active{
+    color: red;
+}
+
+
+.main{
+    background-color: #ffffcc;
+    width: 1000px;
+    margin-left: 250px;
+    height: 560px;
+
+
+}
+
+
+
+
+
+
+footer {
+    background-color: #003399;
+    size: 11;
+    width: 1000px;
+    height: 30px;
+    color: white;
+    margin: 1px 0 1px 250px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.course table,th,td{
+    width: 600px;
+    border: 1px solid #0066cc;
+    border-collapse: collapse;
+    margin: 0 0 0 50px;
+    padding-top: 11px;
+
+
+}
+#top {
+    
+    color: white;
+    background-color: #0066cc;
+    text-align: left;
+    padding: 15px 0 15px 20px;
+    font-size: 20px;
+}
+
+.tb_1 th{
+    background-color: #649ad1;
+}
+
+.tb_2 th{
+    background-color: #649ad1;
+}
+
+.tb_3 th{
+    background-color: #649ad1;
+}
+
+.tb_1 td{
+    width: 2500px;
+}
+
+.tb_2 td{
+    width: 1748px;
+}
+
+.tb_3 td{
+    width: 1790px;
+}
+
+
+
+
